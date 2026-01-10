@@ -1,0 +1,31 @@
+In this i worked on some basic excel formulas 
+
+=sum(Range) here we need to specify range(i calculated this total sum of salaries with this)
+
+=average(rang) here also we need to specify some range(i calculated average of age from the data)
+
+=max(range) we will get the max value from the given range
+
+=min(range) we will get minimum value from the given range
+
+And later i add one column called Level_by_salary and as well as Level_by_Experiace
+
+For that column i just used if condition as if(E2>50000,"Senior","Junior")
+
+This is like if else block in programming and this e2 refers salary
+
+if salary>50000 then it will print Senior 
+if salary<50000 then it will print Junior
+
+and later i just added one more column for this as Level_by_Experiance
+with same if condition but now i used experience instead of salary this time
+
+and later i count the no of senior and as well as juniors using this
+
+countif(range,"Senior") #This will return me this count of the seniors in this specified range
+
+
+And later i just added filter to the columns using simple shortcut ctrl+shift+L then filter will be applied
+or else we can manually apply them which we have the function in data ribbon in this sort and filter section
+
+and i practiced some filtering as well selecting only salary less than 40000 and as well as at specified department
